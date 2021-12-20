@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="google-signin-client_id" content="540465511422-obrbb5l2focjkljr0k7qfv7lhlib69cc.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+    <div class="container-box">
+  <h1>Login Integrated Google</h1>
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  <script>
+    function onSignIn(googleUser) {
+      // get user profile information
+      console.log(googleUser.getBasicProfile())
+    }
+    function signOut() {
+  gapi.auth2.getAuthInstance().signOut().then(function() {
+    console.log('user signed out')
+  })
+}
+  </script>
+  <button class="btn-out" onclick="signOut()">Sign out</button>
+</div>
+</body>
+</html>

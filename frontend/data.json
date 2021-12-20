@@ -1,0 +1,61 @@
+[{
+  "id": "643",
+  "text": "CEO",
+  "title": "Mark Zuckerberg",
+  "width": "350",
+  "height": "100",
+  "dir": "horizontal",
+  "img": "assets/img/mark.jpg"
+}, {
+  "id": "656",
+  "text": "Financial Manager",
+  "title": "Elon Musk",
+  "width": "350",
+  "height": "100",
+  "dir": "vertical",
+  "img": "assets/img/elon.jpg"
+}, {
+  "id": "679",
+  "text": "Technical Manager",
+  "title": "Bill Gates",
+  "width": "350",
+  "height": "100",
+  "dir": "vertical",
+  "img": "assets/img/bill.jpg"
+}, {
+  "id": "715",
+  "text": "HR Manager",
+  "title": "Jack Ma",
+  "width": "350",
+  "height": "100",
+  "dir": "vertical",
+  "img": "assets/img/jack.jpg"
+}, {
+  "id": "1477",
+  "text": "Admin Manager",
+  "title": "Steve Jobs",
+  "width": "350",
+  "height": "100",
+  "dir": "vertical",
+  "img": "assets/img/steve.jpg"
+}, {
+  "id": "643-656",
+  "from": "643",
+  "to": "656",
+  "type": "line"
+}, {
+  "id": "643-679",
+  "from": "643",
+  "to": "679",
+  "type": "line"
+}, {
+  "id": "643-715",
+  "from": "643",
+  "to": "715",
+  "type": "line"
+}, {
+  "id": "643-1477",
+  "from": "643",
+  "to": "1477",
+  "type": "line"
+}]

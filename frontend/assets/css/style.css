@@ -1,0 +1,251 @@
+/* tulis CSS nya sendiri ya, mengikuti seperti dalam video,
+selamat belajar.. ^^ */
+body {
+    font-family: "Monstserrat", 'Segoe UI', Tahome, Geneva, Verdana, sans-serif;
+}
+
+.section-item {
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 25px #ddd;
+    min-height: 260px;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.section-item-thumbnail{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    max-height: 100%;
+}
+
+.section-item-thumbnaill{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+    max-height: 100%;
+}
+
+.section-item-title {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.section-item-title h3{
+    font-size: 18px;
+    color: #15477a;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span {
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+}
+
+.section-item-title span i {
+    margin-right: 5px;
+}
+
+.section-item-title span:first-of-type{
+    margin-right: 15px;
+}
+
+.section-item-body p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+.section-title{
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.section-title h2 {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #15477a;
+    font-weight: 600;
+}
+
+/* CSS untuk tombol selengkapnya */
+
+.section-title {
+    margin: 30px 0;
+}
+/*css untuk slider 
+
+.owl-item { /*penyebab section turun 20px*/
+    /* padding: 20px 10px; 
+}*/
+
+
+.section-item h5{
+    color: #15477a;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-item-caption h6{
+    font-size: 14px;
+    color: #F2C808;
+    text-transform: uppercase;
+}
+
+
+/* css untuk profil guru */
+
+#detailmember .section-body{
+    margin-top: 50px;
+}
+
+.section-item .kanan{
+    margin-left: 20px;
+}
+
+#detailmember .section-item-content{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#detailmember .section-item h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #15477a;
+}
+
+#detailmember .section-item .biografi p{
+    font-size: 16px;
+    color: rgb(36, 33, 33);
+    line-height: 26px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#detailmember .section-item .biografi p{
+    line-height: 15px;
+}
+
+#detailmember .list-biografi{
+    margin-left: 8px;
+}
+
+#detailmember .foto-member{
+    margin: 20px;
+    height: 400px;
+    width: 330px;
+}
+
+.foto-member{
+    height: 100%;
+    object-fit: cover;
+}
+
+#detailmember .section-item {
+    box-shadow: none;
+    border: 3px solid #15477a;
+    border-radius: 10px;
+}
+
+/* css untuk halaman member */
+#member .container .section-grid .row{
+    margin-top: 30px;
+}
+
+#member .section-body .section-grid .col-md-4{
+    margin-top: 30px;
+}
+
+#member .container .section-body{
+    margin-top: 20px;
+}
+
+.section-body{
+    position: relative;
+}
+
+
+.section-meta a{
+    background-color: #15477a;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.section-meta a i {
+    margin-right: 5px;
+}
+
+#berita .row{
+    margin-bottom: 50px;
+}
+
+#berita .section-body .col-md-4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-thumbnail{
+    width: 100%;
+    height: 237px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.section-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-thumbnail .tanggal{
+    position: absolute;
+    bottom: 10px;
+    z-index: 10;
+    left: 10px;
+    background-color: #15477a;
+    color: #F2C808;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.section-thumbnail .tanggal span{
+    margin: 0;
+    padding: 0;
+}
+
+.section-thumbnail .tanggal span.tgl{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.section-thumbnail .tanggal span.tgl-2{
+    font-size: 10px;
+}
+
+.section-item-meta span {
+    font-size: 11px;
+    color: #666;
+    font-weight: 400;
+}
+
+.section-item-meta .map{
+    margin-left: 10px;
+}
+.section-item-meta{
+    margin-bottom: 10px;
+}
